@@ -189,6 +189,9 @@ class Gutter {
         } else {
             this.grid = e.target.parentNode
         }
+        while(this.grid.classList.indexOf("gutter") !== -1){
+            this.grid = this.grid.parentNode;
+        }
 
         this.getDimensions()
         this.setTracks(this.getRawTracks())
