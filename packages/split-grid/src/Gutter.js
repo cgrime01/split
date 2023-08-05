@@ -189,7 +189,7 @@ class Gutter {
         } else {
             this.grid = e.target.parentNode
         }
-        while(this.grid.classList.indexOf("gutter") !== -1){
+        while(this.grid.classList.contains("gutter")){
             this.grid = this.grid.parentNode;
         }
 
