@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Split from 'split-grid'
+import Split from '@mlp-cgrimes/split-grid'
 
 class ReactSplitGrid extends React.Component {
     constructor(props) {

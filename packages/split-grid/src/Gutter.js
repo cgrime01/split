@@ -1,4 +1,4 @@
-import { parse, getSizeAtTrack } from 'grid-template-utils'
+import { parse, getSizeAtTrack } from '@mlp-cgrimes/grid-template-utils'
 import {
     getStyles,
     getGapValue,

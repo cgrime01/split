@@ -1,6 +1,6 @@
 {
-    "name": "split-grid",
-    "version": "1.0.11",
+    "name": "@mlp-cgrimes/split-grid",
+    "version": "0.0.5",
     "description": "The spiritual successor of Split.js, built for CSS Grid",
     "main": "dist/split-grid.js",
     "minified:main": "dist/split-grid.min.js",
@@ -13,13 +13,16 @@
         "test": "jest",
         "size": "echo \"gzip size: $(gzip-size --raw $npm_package_minified_main) bytes\""
     },
-    "repository": "https://github.com/nathancahill/split",
+    "repository": "https://github.com/cgrime01/split",
     "author": "Nathan Cahill <nathan@nathancahill.com>",
     "homepage": "https://split.js.org/",
     "files": [
         "index.d.ts",
         "dist"
     ],
+    "dependencies": {
+        "@mlp-cgrimes/grid-template-utils": "^0.0.1"
+    },
     "license": "MIT",
     "collective": {
         "type": "opencollective",

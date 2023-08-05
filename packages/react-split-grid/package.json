@@ -1,6 +1,6 @@
 {
-    "name": "react-split-grid",
-    "version": "1.0.4",
+    "name": "@mlp-cgrimes/react-split-grid",
+    "version": "0.0.5",
     "description": "React component for Split Grid",
     "main": "dist/react-split-grid.js",
     "minified:main": "dist/react-split-grid.min.js",
@@ -13,7 +13,7 @@
         "test": "jest",
         "size": "echo \"gzip size: $(gzip-size --raw $npm_package_minified_main) bytes\""
     },
-    "repository": "https://github.com/nathancahill/split",
+    "repository": "https://github.com/cgrime01/split",
     "author": "Nathan Cahill <nathan@nathancahill.com>",
     "homepage": "https://split.js.org/",
     "files": [
@@ -23,7 +23,7 @@
     "license": "MIT",
     "dependencies": {
         "prop-types": "^15.5.7",
-        "split-grid": "^1.0.9"
+        "@mlp-cgrimes/split-grid": "^0.0.5"
     },
     "peerDependencies": {
         "react": "*"
