@@ -1,6 +1,6 @@
 {
     "name": "@mlp-cgrimes/split-grid",
-    "version": "0.0.5",
+    "version": "0.0.8",
     "description": "The spiritual successor of Split.js, built for CSS Grid",
     "main": "dist/split-grid.js",
     "minified:main": "dist/split-grid.min.js",
